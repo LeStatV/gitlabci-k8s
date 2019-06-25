@@ -20,5 +20,4 @@ RUN apk add --update --no-cache \
   mv linux-amd64/helm /usr/bin/; \
   mv linux-amd64/tiller /usr/bin/; \
   curl -L -o /usr/bin/kubectl "https://storage.googleapis.com/kubernetes-release/release/v${KUBERNETES_VERSION}/bin/linux/amd64/kubectl"; \
-  chmod +x /usr/bin/kubectl; \
-  wget -qO- https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer;
+  chmod +x /usr/bin/kubectl;
