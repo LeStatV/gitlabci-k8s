@@ -1,6 +1,6 @@
 FROM docker:stable-git
 ENV HELM_VERSION=2.12.2 \
-    KUBERNETES_VERSION=1.10.1
+    KUBERNETES_VERSION=1.16.0
 RUN apk add --update --no-cache \
   openssl \
   curl \
