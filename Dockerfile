@@ -17,7 +17,7 @@ RUN apk add --update --no-cache \
   apk add glibc-2.28-r0.apk; \
   rm glibc-2.28-r0.apk; \
 #  curl "https://kubernetes-helm.storage.googleapis.com/helm-v${HELM_VERSION}-linux-amd64.tar.gz" | tar zx; \
-  curl "https://get.helm.sh/helm-v3.4.2-linux-amd64.tar.gz" | tar zx; \
+  curl "https://get.helm.sh/helm-v3.1.0-linux-amd64.tar.gz" | tar zx; \
   mv linux-amd64/helm /usr/bin/; \
   mv linux-amd64/tiller /usr/bin/; \
   curl -L -o /usr/bin/kubectl "https://storage.googleapis.com/kubernetes-release/release/v${KUBERNETES_VERSION}/bin/linux/amd64/kubectl"; \
